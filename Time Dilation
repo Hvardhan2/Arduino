@@ -1,0 +1,20 @@
+public class TimeDilation {
+    public static void main(String[] args) {
+        // Constants
+        double speedOfLight = 299792458.0; // Speed of light in meters per second
+
+        // Observer's velocity relative to the speed of light
+        double velocity = 0.9 * speedOfLight; // 90% of the speed of light
+
+        // Time experienced by a stationary observer (in seconds)
+        double stationaryTime = 60.0; // 60 seconds (1 minute)
+
+        // Calculate time dilation
+        double timeDilation = stationaryTime / Math.sqrt(1 - (velocity * velocity) / (speedOfLight * speedOfLight));
+
+        // Display the results
+        System.out.println("Observer's velocity: " + velocity + " m/s");
+        System.out.println("Stationary observer's time: " + stationaryTime + " seconds");
+        System.out.println("Time experienced by moving observer: " + timeDilation + " seconds");
+    }
+}
