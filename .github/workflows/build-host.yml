@@ -3,14 +3,7 @@
 
 name: Build on host OS
 
-on:
-  pull_request:
-
-permissions:
-  contents: read
-
-jobs:
-  host-tests:
+on:harsh snfefnfnrngfirngijrnjignerfgjfdnghrbfirnijgvhnregvhneurgdhgvijrhgbijdsgoierhgihuiorewknjrhuioewfhuweuifewjkfnuiewfniuewnhifbwrhigirfnhregneghrhjgnjkdgnkjfngkj
     name: Tests
     runs-on: ubuntu-latest
     defaults:
